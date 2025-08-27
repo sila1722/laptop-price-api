@@ -10,7 +10,7 @@ app = FastAPI(title="Laptop Price API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://price-prediction-website-k49MSO2SRY6.v0.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
