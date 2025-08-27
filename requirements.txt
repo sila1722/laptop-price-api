@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pandas
+numpy
+joblib
+scikit-learn>=1.0,<2.0
